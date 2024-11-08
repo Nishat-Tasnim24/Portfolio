@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishat Tasnim's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .hero {
+        background-image: url('img/12.jpg'); /* Change this to the path of your image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+    
+    .hero-content {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5); /* Optional overlay */
+        padding: 20px;
+        border-radius: 8px;
+    }
+    html {
+    scroll-behavior: smooth;
+}
+
+    </style>
+    
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Nishat Tasnim</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content text-center text-white">
+        <h1 class="display-4 fw-bold">Hi, I'm <span class="text-primary">Nishat Tasnim</span></h1>
+        <p class="lead">A Web Developer specialized in creating modern, responsive, and interactive websites.</p>
+        <p>Web Developer | Designer | Creator</p>
+        <!-- Update href attributes to match section IDs -->
+        <a href="projects.html#projects" class="btn btn-primary btn-lg mt-4">View My Work</a>
+        <a href="contact.html#contact" class="btn btn-outline-light btn-lg mt-4 ms-2">Contact Me</a>
+        
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5" style="background-color: #e9ecef;">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>My Skills</h2>
+                <p>I specialize in crafting modern and responsive websites using the latest technologies.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body">
+                            <i class="bi bi-code-slash" style="font-size: 2rem; color: #007bff;"></i>
+                            <h5 class="card-title mt-3">HTML & CSS</h5>
+                            <p class="card-text">Expert in creating structured and accessible websites with clean HTML and responsive CSS.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body">
+                            <i class="bi bi-file-code" style="font-size: 2rem; color: #007bff;"></i>
+                            <h5 class="card-title mt-3">JavaScript</h5>
+                            <p class="card-text">Skilled in building dynamic user interfaces using JavaScript and frameworks like React.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body">
+                            <i class="bi bi-bootstrap" style="font-size: 2rem; color: #007bff;"></i>
+                            <h5 class="card-title mt-3">Bootstrap</h5>
+                            <p class="card-text">Proficient in building responsive websites quickly using Bootstrap’s components and utilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body">
+                            <i class="bi bi-code-square" style="font-size: 2rem; color: #007bff;"></i>
+                            <h5 class="card-title mt-3">Version Control (Git)</h5>
+                            <p class="card-text">Experienced in using Git and GitHub for collaborative development and version control.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body">
+                            <i class="bi bi-window-sidebar" style="font-size: 2rem; color: #007bff;"></i>
+                            <h5 class="card-title mt-3">React</h5>
+                            <p class="card-text">Proficient in building modern web applications using the React framework.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-body">
+                            <i class="bi bi-cloud-arrow-up" style="font-size: 2rem; color: #007bff;"></i>
+                            <h5 class="card-title mt-3">Cloud Deployment</h5>
+                            <p class="card-text">Experience in deploying web applications on cloud platforms like AWS and Heroku.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5" style="background-color: #f9f9f9;">
+    <div class="container">
+        <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">What Clients Say</h2>
+            <p class="text-muted">Hear from those who have worked with me</p>
+        </div>
+        <div class="row">
+            <!-- Testimonial 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100 text-center p-4 bg-light">
+                    <div class="card-body">
+                        <img src="img/6.jpg" alt="Client 1" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h5 class="card-title fw-bold">John Doe</h5>
+                        <p class="text-muted">CEO, Tech Innovations</p>
+                        <p class="card-text">"Working with Nishat was a fantastic experience. Her skills in web development and attention to detail helped us launch our product on time and beyond expectations!"</p>
+                        <i class="fas fa-quote-right text-primary" style="font-size: 2rem;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100 text-center p-4 bg-light">
+                    <div class="card-body">
+                        <img src="img/7.jpg" alt="Client 2" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h5 class="card-title fw-bold">Sarah Lee</h5>
+                        <p class="text-muted">Marketing Director, Creative Agency</p>
+                        <p class="card-text">"Nishat's expertise in front-end development helped us redesign our website, improving user experience and engagement metrics across the board. Highly recommend!"</p>
+                        <i class="fas fa-quote-right text-success" style="font-size: 2rem;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100 text-center p-4 bg-light">
+                    <div class="card-body">
+                        <img src="img/6.jpg" alt="Client 3" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;">
+                        <h5 class="card-title fw-bold">Michael Smith</h5>
+                        <p class="text-muted">CTO, FinTech Solutions</p>
+                        <p class="card-text">"Her work ethic and problem-solving abilities are remarkable. Nishat helped us solve complex technical challenges, making our platform much more scalable."</p>
+                        <i class="fas fa-quote-right text-danger" style="font-size: 2rem;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-warning">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i> <!-- Half-star or empty star for visual balance -->
+    </div>
+    
+</section>
+
+<!-- Blog/Articles Section with FontAwesome Icons -->
+<section id="blog" class="py-5" style="background-color: #f7f7ff;">
+    <div class="container">
+        <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Latest Articles</h2>
+            <p class="text-muted">Insights, tutorials, and thoughts on web development and design</p>
+        </div>
+        <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100" style="background-color: #fdf7f0;">
+                    <img src="img/icon1.jpg.jpg" class="card-img-top" alt="Article 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary"><i class="fas fa-code"></i> Understanding JavaScript Closures</h5>
+                        <p class="card-text text-muted">A concise guide on JavaScript closures, their use cases, and how they can make your code more efficient.</p>
+                        <a href="blog-post-url" class="btn btn-outline-primary">
+                            <i class="fas fa-book-open"></i> Read More
+                        </a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><i class="far fa-calendar-alt"></i> Posted on January 15, 2024</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100" style="background-color: #f0f9ff;">
+                    <img src="img/icon2.jpg.jpg" class="card-img-top" alt="Article 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-success"><i class="fas fa-laptop-code"></i> Mastering Flexbox for Responsive Layouts</h5>
+                        <p class="card-text text-muted">Learn how to use CSS Flexbox to create responsive and flexible layouts for modern web applications.</p>
+                        <a href="blog-post-url" class="btn btn-outline-success">
+                            <i class="fas fa-book-open"></i> Read More
+                        </a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><i class="far fa-calendar-alt"></i> Posted on February 5, 2024</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100" style="background-color: #f2f8f5;">
+                    <img src="img/icon3.jpg.jpg" class="card-img-top" alt="Article 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger"><i class="fas fa-search"></i> SEO Strategies for Web Developers</h5>
+                        <p class="card-text text-muted">Explore key SEO strategies that every web developer should know to optimize websites for search engines.</p>
+                        <a href="blog-post-url" class="btn btn-outline-danger">
+                            <i class="fas fa-book-open"></i> Read More
+                        </a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><i class="far fa-calendar-alt"></i> Posted on March 22, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certificates Section -->
+<section id="certificates" class="py-5" style="background-color: #f0f8ff;">
+    <div class="container">
+        <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Certificates & Achievements</h2>
+            <p class="text-muted">Recognitions of my expertise and dedication to web development</p>
+        </div>
+        <div class="row text-center">
+            <!-- Certificate 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100 bg-light text-dark">
+                    <div class="card-body">
+                        <i class="bi bi-award-fill text-warning" style="font-size: 3rem;"></i>
+                        <h5 class="card-title mt-3">Full-Stack Web Development</h5>
+                        <p class="card-text text-muted">Certified by Coursera, covering both front-end and back-end technologies, including JavaScript, Node.js, and databases.</p>
+                        <span class="badge bg-primary">2023</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100 bg-light text-dark">
+                    <div class="card-body">
+                        <i class="bi bi-lightbulb-fill text-success" style="font-size: 3rem;"></i>
+                        <h5 class="card-title mt-3">UI/UX Design Specialization</h5>
+                        <p class="card-text text-muted">Earned from Interaction Design Foundation, specializing in user-centered design and creating seamless digital experiences.</p>
+                        <span class="badge bg-success">2022</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card shadow-lg border-0 h-100 bg-light text-dark">
+                    <div class="card-body">
+                        <i class="bi bi-bar-chart-fill text-danger" style="font-size: 3rem;"></i>
+                        <h5 class="card-title mt-3">Data Structures & Algorithms</h5>
+                        <p class="card-text text-muted">Completed an advanced course on data structures and algorithms, focusing on optimizing performance in coding projects.</p>
+                        <span class="badge bg-danger">2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Footer Section -->
+ <footer class="bg-dark text-white text-center text-lg-start">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Nishat Tasnim</h5>
+                <p>
+                    Web Developer specializing in creating responsive and engaging websites with modern technologies.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#about" class="text-white">About</a></li>
+                    <li><a href="#skills" class="text-white">Skills</a></li>
+                    <li><a href="#projects" class="text-white">Projects</a></li>
+                    <li><a href="#contact" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Social</h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="https://github.com" class="text-white">GitHub</a></li>
+                    <li><a href="https://linkedin.com" class="text-white">LinkedIn</a></li>
+                    <li><a href="https://twitter.com" class="text-white">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.8);">
+        © 2024 Nishat Tasnim
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
